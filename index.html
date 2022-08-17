@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- External stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
+    rel="stylesheet">
+
+  <title>Loopstudios Landing Page</title>
+</head>
+<body>
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class=" section-container pt-16 h-screen">
+      <nav class="flex items-center justify-between font-bold text-white">
+        <img src="images/logo.svg" alt="">
+        <div class="hidden font-alata md:flex md:space-x-8 h-9">
+          <div class="group">
+            <a href="#">About</a>
+            <div class="underline"></div>
+          </div>
+          <div class="group">
+            <a href="#">Careers</a>
+            <div class="underline"></div>
+          </div>
+          <div class="group">
+            <a href="#">Events</a>
+            <div class="underline"></div>
+          </div>
+          <div class="group">
+            <a href="#">Products</a>
+            <div class="underline"></div>
+          </div>
+          <div class="group">
+            <a href="#">Support</a>
+            <div class="underline"></div>
+          </div>
+        </div>
+
+        <!-- Hamburger Button -->
+        <div class="md:hidden">
+          <button id="menu-btn" type="button"
+            class="z-10 relative block md:hidden w-6 h-6 cursor-pointer focus:outline-none">
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
+        </div>
+
+        <!-- mobile menu -->
+        <div id="menu"
+          class="absolute top-0 bottom-0 left-0 hidden flex-col items-center w-full min-h-screen py-1 pt-40 space-y-3 text-lg text-white uppercase bg-black duration-200 transition">
+          <a href="#" class="hover:text-pink-500">About</a>
+          <a href="#" class="hover:text-pink-500">Careers</a>
+          <a href="#" class="hover:text-pink-500">Events</a>
+          <a href="#" class="hover:text-pink-500">Products</a>
+          <a href="#" class="hover:text-pink-500">Support</a>
+        </div>
+      </nav>
+
+      <div
+        class="max-w-xl mx-auto md:mx-0 text-white text-4xl md:text-6xl uppercase m-28 md:my-20 p-8 border-2 border-white">
+        Immersive
+        experiences that deliver
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature Section -->
+  <section id="feature">
+    <div class="section-container relative flex flex-col mt-20 md:flex-row space-y-6 md:space-y-0">
+      <img src="images/desktop/image-interactive.jpg" alt="">
+      <div class="md:absolute -bottom-12 right-28 p-8 md:p-16 bg-white max-w-[36rem] mx-auto">
+        <h2 class="text-3xl md:text-5xl mb-8 text-black uppercase text-center md:text-left">The leader in interactive
+          VR</h2>
+        <p class="text-gray text-center md:text-left">Founded in 2011, Loopstudios has been producing world-class
+          virtual reality
+          projects for some of the best companies around the globe. Our award-winning
+          creations have transformed businesses through digital experiences that bind
+          to their brand.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Creation Section -->
+  <section id="creations">
+    <div class="section-container mt-4 md:mt-20">
+      <div class="flex justify-center md:justify-between mb-16">
+        <h2 class="text-3xl md:text-5xl uppercase">Our Creations</h2>
+        <button class="btn hidden md:block duration-150">See All</button>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <div class="group relative overflow-hidden">
+          <img src="images/desktop/image-deep-earth.jpg" class="desktop-image" alt="">
+          <img src="images/mobile/image-deep-earth.jpg" class="mobile-image" alt="">
+          <h5>Deep Earth</h5>
+        </div>
+        <div class="group relative overflow-hidden">
+          <img src="images/desktop/image-night-arcade.jpg" class="desktop-image" alt="">
+          <img src="images/mobile/image-night-arcade.jpg" class="mobile-image" alt="">
+          <h5>Night Arcade</h5>
+        </div>
+        <div class="group relative overflow-hidden">
+          <img src="images/desktop/image-soccer-team.jpg" class="desktop-image " alt="">
+          <img src="images/mobile/image-soccer-team.jpg" class="mobile-image " alt="">
+          <h5>Soccer Team VR</h5>
+        </div>
+        <div class="group relative overflow-hidden">
+          <img src="images/desktop/image-grid.jpg" class="desktop-image " alt="">
+          <img src="images/mobile/image-grid.jpg" class="mobile-image " alt="">
+          <h5>the grid</h5>
+        </div>
+        <div class="group relative overflow-hidden">
+          <img src="images/desktop/image-from-above.jpg" class="desktop-image " alt="">
+          <img src="images/mobile/image-from-above.jpg" class="mobile-image " alt="">
+          <h5>from up above vr</h5>
+        </div>
+        <div class="group relative overflow-hidden">
+          <img src="images/desktop/image-pocket-borealis.jpg" class="desktop-image " alt="">
+          <img src="images/mobile/image-pocket-borealis.jpg" class="mobile-image " alt="">
+          <h5>pocket borealis</h5>
+        </div>
+        <div class="group relative overflow-hidden">
+          <img src="images/desktop/image-curiosity.jpg" class="desktop-image " alt="">
+          <img src="images/mobile/image-curiosity.jpg" class="mobile-image " alt="">
+          <h5>the curiosity</h5>
+        </div>
+        <div class="group relative overflow-hidden">
+          <img src="images/desktop/image-fisheye.jpg" class="desktop-image " alt="">
+          <img src="images/mobile/image-fisheye.jpg" class="mobile-image " alt="">
+          <h5>make it fisheye</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black mt-20">
+    <div class="container max-w-6xl py-10 mx-auto">
+      <div class="flex flex-col md:flex-row items-center md:justify-between space-y-6 md:space-y-0">
+        <div class="space-y-4">
+          <img src="images/logo.svg" alt="">
+          <div class=" flex flex-col items-center space-y-4 font-bold text-white md:flex-row md:space-y-0 md:space-x-6">
+            <div class="group">
+              <a href="#">About</a>
+              <div class="underline"></div>
+            </div>
+            <div class="group">
+              <a href="#">Careers</a>
+              <div class="underline"></div>
+            </div>
+            <div class="group">
+              <a href="#">Events</a>
+              <div class="underline"></div>
+            </div>
+            <div class="group">
+              <a href="#">Products</a>
+              <div class="underline"></div>
+            </div>
+            <div class="group">
+              <a href="#">Support</a>
+              <div class="underline"></div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="flex space-x-4 items-center justify-center md:justify-start mb-4">
+            <a href="">
+              <img src="images/icon-facebook.svg" alt="">
+            </a>
+            <a href="">
+              <img src="images/icon-twitter.svg" alt="">
+            </a>
+            <a href="">
+              <img src="images/icon-pinterest.svg" alt="">
+            </a>
+            <a href="">
+              <img src="images/icon-instagram.svg" alt="">
+            </a>
+          </div>
+          <p class="text-darkGray">© 2021 Loopstudios. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-white text-center max-w-md mx-auto">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="font-bold">Frontend
+        Mentor</a>.
+      Coded by <a href="#" class="font-bold">Quang Hung Pham</a>.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
